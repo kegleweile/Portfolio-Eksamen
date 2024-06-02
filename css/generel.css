@@ -1,0 +1,97 @@
+.grid_1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+@media (max-width: 800px) {
+  .grid_1-1 {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .overskrift {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .text-container {
+    width: 120%;
+    text-align: center;
+  }
+
+  .knap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 120%;
+  }
+
+  img.forside-img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .grid_1-1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .overskrift,
+  .tekst-container,
+  .knap-container {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .tekst-container {
+    max-width: 90%; /* Eller en anden værdi, der passer til dit design */
+  }
+
+  .knap-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .forside-img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  footer {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
