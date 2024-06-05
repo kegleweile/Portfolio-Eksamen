@@ -1,3 +1,24 @@
+@media (max-width: 950px) {
+  .h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+  }
+
+  .container-portfolio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-portfolio {
+    width: 90%;
+  }
+
+  .knap-portfolio {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 @media (max-width: 800px) {
   .container-index {
     flex-direction: column;
@@ -30,30 +51,6 @@
     font-size: 18px;
     text-align: center;
   }
-}
-
-@media (max-width: 950px) {
-  .h1 {
-    font-size: 45px;
-    margin-bottom: 0;
-  }
-
-  .container-portfolio {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .box-portfolio {
-    width: 90%;
-  }
-
-  .knap-portfolio {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
-@media (max-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -65,4 +62,46 @@
 }
 .ordersecond {
   order: -1;
+}
+
+@media (max-width: 600px) {
+  .nav-menu {
+    position: fixed;
+    left: 100%;
+    top: 6.5rem;
+    flex-direction: column;
+    background-color: #f6f9f4;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translate(0, 8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translate(0, -8px) rotate(-45deg);
+  }
+
+  main {
+    margin: 20px;
+  }
 }
