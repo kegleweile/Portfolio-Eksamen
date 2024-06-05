@@ -5,8 +5,9 @@ body {
 }
 
 h1 {
+  text-align: center;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   margin-bottom: 20px;
   color: rgb(30, 30, 32);
@@ -14,9 +15,16 @@ h1 {
 
 h2 {
   font-family: Sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(199, 199, 184, 0.911);
+}
+
+h3 {
+  font-family: Sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: beige;
+  color: rgba(199, 199, 184, 0.911);
 }
 
 p {
@@ -91,11 +99,43 @@ nav {
   transition: 0.3s;
 }
 
+.navbar {
+  font-family: Montserrat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.5s ease-in-out;
+  background-color: #101010;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-menu {
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.nav-item {
+  margin-left: 5rem;
+}
+
 /* ******************************* FORSIDE ******************************* */
 .container-index {
   display: flex;
   height: 500px;
   text-align: center;
+  margin-top: 2%;
 }
 
 .box-1 {
@@ -164,13 +204,8 @@ nav {
 .box-3 {
   flex: 2;
   height: 300px;
-  margin-top: 2%;
-}
-
-.box-4 {
-  flex: 1;
-  height: 300px;
-  margin-left: 5%;
+  width: 850px;
+  margin-top: 5%;
 }
 
 .knap-about {
@@ -183,6 +218,7 @@ nav {
 .img-about {
   height: 350px;
   border-radius: 50%;
+  margin-left: 20%;
 }
 
 .container-about2 {
@@ -196,23 +232,23 @@ nav {
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #3b3a3a;
+  width: 600px;
+}
+
+.box-6 {
+  background-color: rgba(25, 55, 37, 0.683);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #3b3a3a;
+  width: 600px;
 }
 
 /* ******************************* PORTFOLIO ******************************* */
 
-.h1-portfolio {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 70px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  color: rgb(30, 30, 32);
-}
-
 .container-portfolio {
   padding: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .box-portfolio {
@@ -245,4 +281,17 @@ nav {
   font-weight: lighter;
   color: rgba(33, 31, 31, 0.927);
   text-align: center;
+}
+
+/* ******************************* NY ABOUT ******************************* */
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+.rowspan2 {
+  grid-row: span 2;
+  margin: 0 25px;
 }

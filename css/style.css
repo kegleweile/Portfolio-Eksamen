@@ -33,8 +33,8 @@
 }
 
 @media (max-width: 950px) {
-  .h1-portfolio {
-    font-size: 50px;
+  .h1 {
+    font-size: 45px;
     margin-bottom: 0;
   }
 
@@ -51,4 +51,18 @@
     flex-direction: column;
     gap: 10px;
   }
+}
+
+@media (max-width: 800px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.ordertop {
+  order: -2;
+}
+.ordersecond {
+  order: -1;
 }
