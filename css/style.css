@@ -1,7 +1,11 @@
 @media (max-width: 950px) {
-  .h1 {
-    font-size: 45px;
-    margin-bottom: 0;
+  .box-1 {
+    margin-top: 10px;
+  }
+
+  .img-forside {
+    margin-top: 1%;
+    scale: 100%;
   }
 
   .container-portfolio {
@@ -16,10 +20,6 @@
   .knap-portfolio {
     flex-direction: column;
     gap: 10px;
-  }
-  .img-forside {
-    align-items: center;
-    max-width: 100%;
   }
 }
 
@@ -47,7 +47,7 @@
   }
 
   .footer-index {
-    margin-top: 64%;
+    margin-top: 25%;
     font-size: 18px;
     text-align: center;
   }
@@ -60,18 +60,14 @@
     grid-template-columns: 1fr;
   }
   .h1-forside {
+    font-size: 55px;
+  }
+  .h1-portfolio {
     font-size: 50px;
   }
 }
 
-.ordertop {
-  order: -2;
-}
-.ordersecond {
-  order: -1;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .nav-menu {
     position: fixed;
     left: 100%;

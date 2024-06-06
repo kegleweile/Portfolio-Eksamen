@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   font-family: Sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
   color: rgba(199, 199, 184, 0.911);
 }
@@ -132,20 +132,18 @@ nav {
 
 .container-index {
   display: flex;
-  height: 500px;
+  height: 450px;
   text-align: center;
   margin-top: 2%;
 }
 
 .box-1 {
   flex: 1;
-  height: 300px;
   margin-top: 69px;
 }
 
 .box-2 {
   flex: 1;
-  height: 300px;
   margin-top: 15px;
 }
 
@@ -189,16 +187,17 @@ nav {
   color: rgba(228, 219, 219, 0.883);
 }
 
-.img-forside {
-  height: 350px;
-}
-
 .footer-index {
   font-family: Maj, sans-serif;
   font-size: 20px;
   font-weight: lighter;
   color: rgba(33, 31, 31, 0.927);
   text-align: center;
+}
+
+.img-forside {
+  margin-top: 10%;
+  scale: 140%;
 }
 
 /* ******************************* ABOUT ******************************* */
@@ -261,10 +260,23 @@ nav {
   grid-row: span 2;
   margin: 0 25px;
 }
+
+.ordertop {
+  order: -2;
+}
+.ordersecond {
+  order: -1;
+}
 /* ******************************* PORTFOLIO ******************************* */
 
+.h1-portfolio {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(30, 30, 32);
+}
 .container-portfolio {
-  padding: 20px;
   display: flex;
   justify-content: space-evenly;
 }
