@@ -1,4 +1,10 @@
-@media (max-width: 950px) {
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1200px) {
   .box-1 {
     margin-top: 10px;
   }
@@ -21,14 +27,7 @@
     flex-direction: column;
     gap: 10px;
   }
-}
-
-@media (max-width: 800px) {
   .container-index {
-    flex-direction: column;
-  }
-
-  .container-about {
     flex-direction: column;
   }
 
@@ -36,51 +35,84 @@
     align-items: center;
   }
 
-  .img-about {
-    margin-top: 35%;
-    align-items: center;
-  }
-
-  .footer-index {
-    margin-top: 25%;
-    font-size: 18px;
-    text-align: center;
-  }
-  .footer {
-    font-size: 18px;
-    text-align: center;
-  }
-  .grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
   .h1-forside {
     font-size: 55px;
   }
+
   .h1-portfolio {
     font-size: 50px;
   }
+
   .h1-about {
     font-size: 50px;
   }
-  .container-about {
+
+  .footer-index {
+    margin-top: 90px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer-portfolio {
+    margin-top: 0%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer-about {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .grid_1-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .img-about-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-about {
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+
+  .box-text {
+    width: 100%;
+    height: 0%;
+  }
+
+  .box-indhold {
     flex-direction: column;
     align-items: center;
+    height: 1500px;
   }
-  .box-5 {
+
+  .box-uddannelse {
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 6%;
+    height: 445px;
+    width: 310px;
+  }
+
+  .box-erhvervserfaring {
+    align-items: center;
+    margin-bottom: 6%;
     height: 470px;
+    width: 310px;
   }
-  .box-6 {
+
+  .box-kompetencer {
     align-items: center;
-    margin-bottom: 20px;
-    height: 450px;
-  }
-  .box-7 {
-    align-items: center;
-    margin-bottom: 20px;
     height: 470px;
+    width: 310px;
+  }
+
+  .kontakt-indhold {
+    flex-direction: column;
+    width: 310px;
+    margin-top: 5%;
   }
 }
 
