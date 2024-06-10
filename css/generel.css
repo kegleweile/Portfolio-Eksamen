@@ -352,13 +352,7 @@ nav {
   margin-top: 3%;
 }
 
-.brun1 {
-  background-color: rgba(184, 141, 108, 0.47);
-  margin: 0;
-  padding: 0;
-}
-
-.img-tema2 {
+.img-tema {
   height: auto;
   max-width: 100%;
   border-radius: 5%;
@@ -367,10 +361,21 @@ nav {
 
 .tema-box1 {
   padding: 15px;
-  margin-top: -3%;
+  margin-top: 1%;
 }
 
 .tema-box2 {
   padding: 15px;
-  margin-top: -3%;
+}
+
+.konklussion-box {
+  margin-top: 3%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #3b3a3a;
+  background-color: rgb(211, 215, 197);
+}
+
+.knap-tema {
+  text-align: center;
 }
