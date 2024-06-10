@@ -343,3 +343,34 @@ nav {
   padding: 10px;
   color: #1c1e1de4;
 }
+
+/************************** TEMA SIDER ***************************/
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3%;
+}
+
+.brun1 {
+  background-color: rgba(184, 141, 108, 0.47);
+  margin: 0;
+  padding: 0;
+}
+
+.img-tema2 {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5%;
+  margin-top: 3%;
+}
+
+.tema-box1 {
+  padding: 15px;
+  margin-top: -3%;
+}
+
+.tema-box2 {
+  padding: 15px;
+  margin-top: -3%;
+}

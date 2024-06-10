@@ -47,6 +47,10 @@
     font-size: 50px;
   }
 
+  .h1-tema {
+    font-size: 45px;
+  }
+
   .footer-index {
     margin-top: 90px;
     font-size: 18px;
@@ -156,5 +160,14 @@
 
   main {
     margin: 20px;
+  }
+}
+
+/************************** prøve ***************************/
+
+@media (max-width: 800px) {
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
