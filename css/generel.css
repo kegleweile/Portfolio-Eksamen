@@ -239,19 +239,6 @@ nav {
   color: rgba(65, 72, 51);
 }
 
-.box-tema2 {
-  display: flex;
-  width: 80%;
-  max-width: 1200px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.image-tema2,
-.text-tema2 {
-  padding: 20px;
-}
-
 .img-tema2 {
   flex: 1;
   display: flex;
@@ -262,10 +249,6 @@ nav {
 .img-tema2 {
   max-width: 100%;
   height: auto;
-}
-
-.text-tema2 {
-  flex: 1;
 }
 
 /************************** TEMA SIDER ***************************/
