@@ -239,18 +239,6 @@ nav {
   color: rgba(65, 72, 51);
 }
 
-.img-tema2 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-tema2 {
-  max-width: 100%;
-  height: auto;
-}
-
 /************************** TEMA SIDER ***************************/
 
 .grid-1 {
