@@ -27,6 +27,14 @@ h3 {
   color: rgba(65, 72, 51);
 }
 
+h4 {
+  font-family: Sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(65, 72, 51);
+}
+
 p {
   font-family: sans-serif;
   font-size: 20px;
@@ -191,7 +199,7 @@ nav {
 
 .img-forside {
   margin-top: 10%;
-  scale: 140%;
+  transform: scale(1.4);
 }
 
 /* ******************************* PORTFOLIO ******************************* */
@@ -258,6 +266,51 @@ nav {
 
 .text-tema2 {
   flex: 1;
+}
+
+/************************** TEMA SIDER ***************************/
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3%;
+}
+
+.img-tema {
+  height: auto;
+  max-width: 100%;
+  border-radius: 5%;
+  margin-top: 3%;
+}
+
+.tema-box1 {
+  padding: 15px;
+  margin-top: 1%;
+}
+
+.tema-box2 {
+  padding: 15px;
+}
+
+.konklussion-box {
+  margin-top: 3%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #3b3a3a;
+  background-color: rgb(211, 215, 197);
+}
+
+.knap-tema {
+  text-align: center;
+}
+
+.streg {
+  border: 3px solid rgba(65, 72, 51);
+  margin-top: 4%;
+}
+
+.knap-projekt {
+  text-align: center;
 }
 
 /* ******************************* ABOUT ******************************* */
@@ -344,47 +397,8 @@ nav {
   color: #1c1e1de4;
 }
 
-/************************** TEMA SIDER ***************************/
-
-.grid-1 {
+.grid_1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 3%;
-}
-
-.img-tema {
-  height: auto;
-  max-width: 100%;
-  border-radius: 5%;
-  margin-top: 3%;
-}
-
-.tema-box1 {
-  padding: 15px;
-  margin-top: 1%;
-}
-
-.tema-box2 {
-  padding: 15px;
-}
-
-.konklussion-box {
-  margin-top: 3%;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #3b3a3a;
-  background-color: rgb(211, 215, 197);
-}
-
-.knap-tema {
-  text-align: center;
-}
-
-.streg {
-  border: 3px solid rgba(65, 72, 51);
-  margin-top: 5%;
-}
-
-.knap-projekt {
-  text-align: center;
+  justify-content: space-evenly;
 }
