@@ -4,8 +4,8 @@
   }
 
   .img-forside {
-    margin-top: 10%;
-    max-width: 80%;
+    max-width: 100%;
+    height: auto;
   }
 
   .container-portfolio {
@@ -25,36 +25,32 @@
     flex-direction: column;
   }
 
-  .h1-forside {
+  /* .h1-forside {
     font-size: 55px;
-  }
+  } */
 
-  .h1-portfolio {
-    font-size: 50px;
-  }
-
-  .h1-about {
-    font-size: 50px;
-  }
-
+  .h1-portfolio,
+  .h1-about,
+  .h1-forside,
   .h1-tema {
-    font-size: 45px;
+    font-size: 50px;
+    text-align: center;
   }
+
+  /* .h1-tema {
+    font-size: 45px;
+  } */
 
   .footer-index {
     margin-top: 90px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
 
-  .footer-portfolio {
-    margin-top: 0%;
-    font-size: 18px;
-    text-align: center;
-  }
-
+  .footer-portfolio,
   .footer-about {
-    font-size: 18px;
+    margin-top: 0%;
+    font-size: 16px;
     text-align: center;
   }
 

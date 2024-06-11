@@ -72,8 +72,8 @@ nav {
 
 .nav-link:hover,
 .nav-link.active {
-  color: rgba(164, 172, 134);
-  border-bottom: 1px solid rgba(164, 172, 134);
+  color: rgb(120, 126, 99);
+  border-bottom: 1px solid rgb(120, 126, 99);
 }
 
 .nav-menu {
@@ -97,7 +97,7 @@ nav {
 }
 
 .nav-menu li a:hover {
-  color: rgba(164, 172, 134);
+  color: rgb(120, 126, 99);
   transition: 0.3s;
 }
 
@@ -150,6 +150,7 @@ nav {
 .box-1 {
   flex: 1;
   margin-top: 69px;
+  margin-left: 6%;
 }
 
 .box-2 {
@@ -198,8 +199,8 @@ nav {
 }
 
 .img-forside {
-  margin-top: 10%;
-  transform: scale(1.4);
+  max-width: 100%;
+  height: 380px;
 }
 
 /* ******************************* PORTFOLIO ******************************* */
